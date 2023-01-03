@@ -13,6 +13,3 @@ jobs:
       with:
         WPE_SSHG_KEY_PRIVATE: ${{ secrets.WPE_SSHG_KEY_PRIVATE }}
         WPE_ENV: watercoolerusa
-        REMOTE_PATH: "wp-content/"
-        PHP_LINT: TRUE
-        CACHE_CLEAR: TRUE
